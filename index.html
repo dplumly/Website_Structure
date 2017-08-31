@@ -14,7 +14,6 @@
 		<link rel="stylesheet" href="css/fonts.css">
 		<link rel="stylesheet" href="css/icons.css">
 		<link rel="stylesheet" href="css/grid.css">
-		<link rel="stylesheet" href="css/remodal.css">
 		<link rel="stylesheet" href="css/main.css">
 		<script src="js/modernizr.js"></script>
 	</head>
@@ -34,7 +33,7 @@
                     <li><a href="#" aria-label="">overview</a></li>
                     <li><a href="#" aria-label="">about</a></li>
                     <li><a href="#" target="_blank" aria-label="">blog</a></li>
-                    <li><a href="#" aria-label="">Contact</a></li>
+                    <li><a href="#footer-content" aria-label="">Contact</a></li>
                 </ul>
             </nav>
         </header>
@@ -47,7 +46,7 @@
 			        	<td><a href="#" aria-label="">overview</a></td>
 			        	<td><a href="#" aria-label="">about</a></td>
 			        	<td><a href="#" target="_blank" aria-label="">blog</a></td>
-			        	<td><a href="#" aria-label="">Contact</a></td>
+			        	<td><a href="#footer-content" aria-label="">Contact</a></td>
 			      	</tr>
 			    </div><!-- end nav-center -->
     		</div><!-- end nav -->
@@ -57,8 +56,8 @@
 				<img id="logo2" src="img/section1/logo.png">
 
 				<h5 class="seven columns centered">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </h5>
-			</div><!-- end landing-content -->
-		</section><!-- end landing -->
+			</div><!-- end section1-content -->
+		</section><!-- end section1 -->
 
 
 
@@ -83,12 +82,12 @@
 						</li>
 					</ul>
 				</div><!-- end row -->
-			</div><!-- end how-it-works-content -->
-		</section><!-- end how-it-works 2 -->
+			</div><!-- end section2-content -->
+		</section><!-- end section2 -->
 
 
 		<section id="section3">
-			<div id="section3-content" class="full-row">
+			<div id="section3-content" class="row">
 				<div id="section3-info" class="six columns">
 					<h3>Heartwarming <br> <span>section...</span></h3>
 					<h6>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
@@ -96,13 +95,17 @@
  					<br>
 					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
 					</h6>
-				</div><!-- end prototype-for-one-info -->
+				</div><!-- end section3-info -->
+
 
 				<div id="section3-video" class="six columns">
-					<iframe src="https://player.vimeo.com/video/96746468?title=0&byline=0&portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
-				</div><!-- end prototype-for-one-video -->
-			</div><!-- end prototype-for-one-content -->
-		</section><!-- end prototype-for-one -->
+					<div class="video-wrapper">
+	    				<iframe width="560" height="349" src="http://www.youtube.com/embed/n_dZNLr2cME?rel=0&hd=1" frameborder="0" allowfullscreen>
+	    				</iframe>
+					</div><!-- end video-wrapper-->
+				</div><!-- end section3-video -->
+			</div><!-- end section3-content -->
+		</section><!-- end section3 -->
 
 
 
@@ -117,31 +120,34 @@
 					</h6>
 				</div><!-- end for-many-info -->
 
-				<div id="device-container" class="six columns">
-					<img src="img/section4/device-guts-90.jpg" alt="">
-				</div><!-- end device-container -->
-			</div><!-- end for-many-content -->
-		</section><!-- end for-many -->
+				<div id="section4-image" class="six columns">
+					<img src="img/section4/image.jpg" alt="">
+				</div><!-- end section4-container -->
+			</div><!-- end section4-content -->
+		</section><!-- end section4 -->
 
 		
-
-
 		<footer>
 			<ul id="footer-content" class="row">
-				<li class="four columns">
-					<a href="#" target="_blank"><img src="img/footer/github.png" alt="GitHub Logo and link to our profile"></a>
+				<li class="three columns">
+					<a href="#" target="_blank"><img src="img/footer/github.svg" alt="GitHub Logo and link to our profile"></a>
 					<h6>github</h6>
-					<p>Our code is open source. Download it and make it your own.</p>
+					<p>Our code is open source. Download to make it your own.</p>
 				</li>
-				<li class="four columns">
-					<a href="#" target="_blank"><img src="img/footer/thingiverse.png" alt="Thingaverse Logo and link to our profile"></a>
-					<h6>thingiverse</h6>
+				<li class="three columns">
+					<a href="#" target="_blank"><img src="img/footer/thingiverse.svg" alt="Twitter Logo and link to our profile"></a>
+					<h6>twitter</h6>
 					<p>Grab our models to print or modify.</p>
 				</li>
-				<li class="four columns">
-					<a href="#" target="_blank"><img src="img/footer/twitter.png" alt="Twitter Logo and link to our profile"></a>
-					<h6>twitter</h6>
-					<p>Check out stuff we are up to.</p>
+				<li class="three columns">
+					<a href="#" target="_blank"><img src="img/footer/instagram.svg" alt="Thingaverse Logo and link to our profile"></a>
+					<h6>instagram</h6>
+					<p>Check out our latest progress.</p>
+				</li>
+				<li class="three columns">
+					<a href="#" target="_blank"><img src="img/footer/email.svg" alt="Twitter Logo and link to our profile"></a>
+					<h6>email</h6>
+					<p>Email us if you want to talk or have improvements.</p>
 				</li>
 			</ul>
 			<p id="copyright">© Think, Make, Repeat. </p>
@@ -149,16 +155,15 @@
 
 		<!-- <javascript> -->
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-		<script src="js/fitvids.js"></script>
 		<script src="js/slide-down-nav.js"></script>
 		<script src="js/scrolline.js"></script>
-		<script src="js/remodal.js"></script>
+		<script src="js/gallery.js"></script>
 
 
 		<!-- Scroll Down Page -->
 		<script>
 			$(function() {
-			  $('.button a, .scroll a').click(function() {
+			  $('nav ul li a, #nav-center a').click(function() {
 			    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
 			      var target = $(this.hash);
 			      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
@@ -187,6 +192,12 @@
 		<script>$(document).ready(function(){
 				$("#section3-video").fitVids();
 			});
+		</script>
+
+		<script type="text/javascript">
+	   		$(document).ready(function() {
+	      		$(".img-gallery").tosrus();
+	   		});
 		</script>
 
 	    <!-- Google Analytics -->
