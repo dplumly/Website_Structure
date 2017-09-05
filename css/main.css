@@ -305,7 +305,7 @@ section4
 #section4-image { 
     padding: 50px 0;
     position: relative;
-    padding-top: 25px;
+    padding: 50px;
     top: 55px; 
 }
 
